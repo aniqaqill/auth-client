@@ -17,7 +17,7 @@ function UserProfile() {
         const userId = url.split('=')[1];
         console.log(userId);
 
-        const response = await axios.get(`http://localhost:8080/profile/${userId}`, {
+        const response = await axios.get(`https://auth-server-production-84ee.up.railway.app/profile/${userId}`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`,
           },

@@ -7,8 +7,8 @@ function Home() {
     <>
     <Navbar />
         <Container maxWidth="sm">
-            <Typography variant="h3" align="center" sx={{ mt: 10 }}>
-                Welcome to Regov Assessment!
+            <Typography variant="h3" align="center" sx={{ mt: 30 }}>
+                Welcome to Regov Assignment!
             </Typography>
             <Typography variant="body1" align="center" sx={{ mt: 4 }}>
                 This is a simple home page.

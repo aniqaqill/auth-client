@@ -15,6 +15,7 @@ import {
 import IconButton from '@mui/material/IconButton';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import Navbar from '../../assets/components/navbar';
 
 import logo from '../../assets/images/logo.png';
 
@@ -27,7 +28,7 @@ function LoginForm() {
 
   const handleLogin = () => {
     axios
-      .post('http://localhost:8080/login', { email, password })
+      .post('https://auth-server-production-84ee.up.railway.app/login', { email, password })
       .then(response => {
         // Handle successful login (e.g., set authentication token, navigate to dashboard, etc.)
         console.log('Login successful');
@@ -51,7 +52,8 @@ function LoginForm() {
   };
 
   return (
-    <div>
+    <>
+      <Navbar />
       <Container maxWidth="sm">
         <Box
           sx={{
@@ -61,7 +63,7 @@ function LoginForm() {
             boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.24)',
             borderRadius: '10px',
             padding: '20px',
-            marginTop: '10vh',
+            marginTop: '15vh',
           }}
         >
           <Avatar
@@ -149,7 +151,7 @@ function LoginForm() {
           </Snackbar>
         </Box>
       </Container>
-    </div>
+    </>
   );
 }
 

@@ -8,6 +8,7 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 
 import logo from '../../assets/images/logo.png';
+import Navbar from '../../assets/components/navbar';
 
 
 const PWD_REGEX = /^(?=.*[A-Z])(?=.*\d).{6,}$/;
@@ -58,7 +59,7 @@ function RegistrationForm() {
       return;
     }
   
-    const API_ENDPOINT = 'http://localhost:8080/register';
+    const API_ENDPOINT = 'https://auth-server-production-84ee.up.railway.app/register';
   
     axios
       .post(API_ENDPOINT, { name, password, email })
@@ -92,7 +93,8 @@ function RegistrationForm() {
 
 
   return (
-    <div>
+    <>
+      <Navbar />
       <Container maxWidth="sm">
         <Box
           sx={{
@@ -102,10 +104,10 @@ function RegistrationForm() {
             boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.24)',
             borderRadius: '10px',
             padding: '20px',
-            marginTop: '10vh',
+            marginTop: '15vh',
           }}
         >
-                    <Avatar
+          <Avatar
             sx={{
               width: '100px',
               height: '100px',
@@ -182,7 +184,7 @@ function RegistrationForm() {
                 <Box sx={{ mt: 4 }}>
                   <Typography variant="body2" color="text.secondary" align="center">
                     {"Already have an account? "}
-                    <a href="/login">login</a>
+                    <a href="/login">Login</a>
                   </Typography>
                 </Box>
               </Grid>
@@ -203,7 +205,7 @@ function RegistrationForm() {
           </Snackbar>
         </Box>
       </Container>
-    </div>
+    </>
   );
 }
 
