@@ -13,6 +13,9 @@ Design a frontend website or mobile application User Interface (UI) that has two
 </ul><h2>Setup</h2>
 <hr><p>Since this project are using React.NodeJS are required to be installed.</p><h5>Steps</h5><ul>
 <li>To get started make sure to clone or fork it to your local device</li>
+<li>Run Npm Install</li>
+ ###NPM Install
+ <li>To get started make sure to clone or fork it to your local device</li>
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Acknowledgement</h2>
 <hr><ul>
@@ -23,10 +26,3 @@ Design a frontend website or mobile application User Interface (UI) that has two
 <hr><p><span style="margin-right: 30px;"></span><a href="https://github.com/aniqaqill/auth-client"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
 
 
-
-
-
-
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
