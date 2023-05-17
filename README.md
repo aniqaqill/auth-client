@@ -40,8 +40,6 @@ Running in development:
 
 ```bash
 npm start
-# or
-npm start
 ```
 
 Running in production:
@@ -54,7 +52,7 @@ npm run prod
 ```
 
 
-# URL frontend
+# Deployed frontend URL 
 FRONTEND_URL = 
 ```
 https://auth-client-fmh5gnrek-aniqaqill.vercel.app/
