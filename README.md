@@ -55,6 +55,6 @@ npm run prod
 
 
 # URL frontend
-FRONTEND_URL = # [default http://localhost:777](https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)
+FRONTEND_URL = # [[default http://localhost:777](https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)](https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)
 ```
 
