@@ -57,6 +57,6 @@ npm run prod
 # URL frontend
 FRONTEND_URL = 
 ```
-(https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)
+https://auth-client-fmh5gnrek-aniqaqill.vercel.app/
 ```
 
