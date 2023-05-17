@@ -13,9 +13,15 @@ Design a frontend website or mobile application User Interface (UI) that has two
 </ul><h2>Setup</h2>
 <hr><p>Since this project are using React.NodeJS are required to be installed.</p><h5>Steps</h5><ul>
 <li>To get started make sure to clone or fork it to your local device</li>
-<li>Run Npm Install</li>
- ###NPM Install
- <li>To get started make sure to clone or fork it to your local device</li>
+<li>To get started make sure to clone or fork it to your local device</li>
+<li>Run npm install for dependencies</li>
+```bash
+npm install
+```
+<li>Run npm start to start development server</li>
+ ```bash
+npm start
+```
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Acknowledgement</h2>
 <hr><ul>
