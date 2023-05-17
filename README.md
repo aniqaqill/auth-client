@@ -7,10 +7,6 @@ Based on the take home assessment Question 1. Design a frontend website or mobil
 - Axios
 - Vercel (Deployment)
 
-# RESTful API Node Express for user authentication
-
-The project builds RESTful APIs using Node.js, Express
-
 ## Manual Installation
 
 Clone the repo:
