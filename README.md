@@ -27,13 +27,6 @@ Install the dependencies:
 ```bash
 npm install
 ```
-## Table of Contents
-
-- [Commands](#commands)
-- [Environment Variables](#environment-variables)
-- [Project Structure](#project-structure)
-- [API Endpoints](#api-endpoints)
-
 ## Commands
 
 Running in development:
